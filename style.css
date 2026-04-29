@@ -1,0 +1,21 @@
+:root{
+    --text-color: #333;
+    --background-color: #bff;
+    --link-color: #ff6f61 ;
+}
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box ;
+}
+html {
+    scroll-behavior : smooth ;
+}
+body{
+    color: var(--text-color) ;
+    background-color : var(--background-color) ;
+}
+a{
+    color:var(--link-color) ;
+    text-decoration : none ;
+}
