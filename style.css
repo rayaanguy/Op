@@ -1,7 +1,7 @@
 :root{
     --text-color: #333;
-    --background-color: #bff;
-    --link-color: #ff6f61 ;
+    --background-color:#ff9999;
+    --link-color: #0077cc ;
 }
 * {
     margin: 0 ;
@@ -18,4 +18,36 @@ body{
 a{
     color:var(--link-color) ;
     text-decoration : none ;
+}
+nav{
+    display:flex ;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items : center ;
+}
+
+nav .right{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+nav .right a{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+@media (max-width: 600px) {
+    nav {
+        padding: 0 20px;
+    }
+}
+nav.right a {
+    font-size: 20px;
+}
+nav.right a:last-child {
+    color: var(--text-color);
+    background-color: transparent;
+    padding: 0px;
 }
