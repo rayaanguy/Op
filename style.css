@@ -1,53 +1,56 @@
-:root{
+:root {
     --text-color: #333;
-    --background-color:#ff9999;
-    --link-color: #0077cc ;
+    --background-color: #ff9999;
+    --link-color: #0077cc;
 }
 * {
-    margin: 0 ;
+    margin: 0;
     padding: 0;
-    box-sizing: border-box ;
+    box-sizing: border-box;
 }
 html {
-    scroll-behavior : smooth ;
+    scroll-behavior: smooth;
 }
-body{
-    color: var(--text-color) ;
-    background-color : var(--background-color) ;
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-family: Arial, sans-serif;
 }
-a{
-    color:var(--link-color) ;
-    text-decoration : none ;
+a {
+    color: var(--link-color);
+    text-decoration: none;
 }
-nav{
-    display:flex ;
-    justify-content: space-between;
-    padding: 0 50px;
-    align-items : center ;
-}
-
-nav .right{
+nav {
     display: flex;
-    gap: 24px;
+    justify-content: space-between;
     align-items: center;
 }
-
-nav .right a{
+nav .right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-right : 50px ;
+}
+nav .right a {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-}
-
-@media (max-width: 600px) {
-    nav {
-        padding: 0 20px;
-    }
-}
-nav.right a {
     font-size: 20px;
 }
-nav.right a:last-child {
-    color: var(--text-color);
-    background-color: transparent;
-    padding: 0px;
+
+nav .right a span {
+    margin-left: 5px;
 }
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin: 50px 0 100px;
+    gap: 40px;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
