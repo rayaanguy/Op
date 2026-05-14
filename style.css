@@ -1,5 +1,5 @@
 :root {
-    --text-color: #333;
+    --text-color: black;
     --background-color: #ff9999;
     --link-color: #0077cc;
 }
@@ -55,6 +55,10 @@ h2 {
 img {
     max-width: 100%;
     display:flex;
-    O
+    
+}
+button{
+    padding: 10px 20px ;
+    background-color : var(--link-color) ;
 }
 
