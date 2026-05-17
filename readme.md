@@ -15,3 +15,4 @@ This website created using html and css
 
  ## 5) Things I wanna say ÷
  I didn't not use any ai or tutorial sry if it turns to be bad and also new update would arrive.
+<img width="1280" height="800" alt="Screenshot_20260514-172921" src="https://github.com/user-attachments/assets/795f3032-4115-4699-a4ed-9995b166e342" />
