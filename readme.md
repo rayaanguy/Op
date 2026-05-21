@@ -11,7 +11,7 @@ https://rayaanguy.github.io/Op/
 This website created using html and css
 
 ## 4)Inspiration ÷
- i thought to create my own portfolio site without ai and  based on just researching 
+ i thought to create my own portfolio site without ai and   based on just researching 
 
  ## 5) Things I wanna say ÷
  I didn't not use any ai or tutorial sry if it turns to be bad and also new update would arrive.
